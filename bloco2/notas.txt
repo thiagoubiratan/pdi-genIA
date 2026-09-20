@@ -1,0 +1,4 @@
+aluno: Diana tirou nota 9.8.
+aluno: Ana tirou nota 8.5.
+aluno: Carlos tirou nota 6.0.
+aluno: Bruno tirou nota 4.2.
