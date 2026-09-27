@@ -1,0 +1,13 @@
+1 - sem especifico não vago.
+❌ Vago: "Escreva sobre Python"
+✅ Específico: "Escreva um parágrafo explicando o que é list comprehension em Python, para um desenvolvedor que já sabe programar mas nunca usou Python"
+
+2 - dê contexto (papel/persona).
+Você é um professor de programação explicando para um desenvolvedor front-end experiente que está aprendendo Python pela primeira vez.
+
+3 - Peça o formato de saída.
+Liste 5 vantagens do Streamlit em formato de tópicos, cada um com no máximo 1 frase.
+
+4 - divida tarefas complexas em partes.
+Ao invés de um pedido gigante, quebra em passos — exatamente como fizemos no seu PDI: "primeiro faça X, depois valide Y, depois Z".
+Quer testar isso na prática agora? Te passo um exercício para você comparar um prompt vago com um prompt bem estruturado, usando o próprio Claude ou ChatGPT.

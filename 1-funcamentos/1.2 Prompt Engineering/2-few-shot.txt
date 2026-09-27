@@ -1,0 +1,19 @@
+A ideia é dar exemplos de entrada e saída dentro do prompt, para o modelo entender exatamente o padrão que você quer — em vez de só descrever o que você quer.
+
+Zero-shot
+Classifique o sentimento desta frase: "O atendimento foi péssimo, nunca mais volto"
+
+Few-shot
+Classifique o sentimento das frases como Positivo, Negativo ou Neutro.
+
+Frase: "Adorei o produto, chegou rápido"
+Sentimento: Positivo
+
+Frase: "Não gostei, veio quebrado"
+Sentimento: Negativo
+
+Frase: "O produto chegou no prazo combinado"
+Sentimento: Neutro
+
+Frase: "O atendimento foi péssimo, nunca mais volto"
+Sentimento:

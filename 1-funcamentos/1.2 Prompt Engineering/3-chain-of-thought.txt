@@ -1,0 +1,3 @@
+cadeia de pensamento
+
+a ideia é pedir ao modelo para mostrar o raciocínio passo a passo antes de dar a resposta final, em vez de pular direto para a conclusão, isso melhora muito a precisão em tarefas que envolvem logica, matemática ou decisões complexas.
