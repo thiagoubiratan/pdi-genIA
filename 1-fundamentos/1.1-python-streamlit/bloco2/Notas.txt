@@ -1,0 +1,3 @@
+lgpd.pdf
+paper.pdf
+setup.pdf

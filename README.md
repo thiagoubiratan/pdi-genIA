@@ -21,7 +21,10 @@ pip install -r requirements.txt
 ## Estrutura
 
 ```
-1-fundamentos/   # Fase 1: Python, Streamlit e prompt engineering
+1-fundamentos/1.1-python-streamlit/
+├── bloco1/   # variáveis, tipos, condicionais, loops, funções, imports
+├── bloco2/   # f-string, comprehension, lambda, arquivos, try/except
+└── bloco3/   # classes, decorators, async/await, Pydantic
 ```
 
 As pastas das fases 2 (RAG), 3 (Agentes) e 4 (Capstone) são criadas ao
@@ -31,7 +34,7 @@ chegar nelas.
 
 | Fase | Progresso | Entrega |
 |------|-----------|---------|
-| 1: Fundamentos | 🔄 0% | 02/11/2026 |
+| 1: Fundamentos | ✅ 100% | 02/11/2026 |
 | 2: RAG | ⏳ 0% | 14/11/2026 |
 | 3: Agentes | ⏳ 0% | 03/12/2026 |
 | 4: Capstone | ⏳ 0% | 13/12/2026 |

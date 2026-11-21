@@ -11,12 +11,12 @@
 
 | Fase | Semanas | Horas | Horas acum. | Data de Entrega | Progresso | Foco | Status |
 |------|---------|-------|-------------|-----------------|-----------|------|--------|
-| 1: Fundamentos | 1-2 | 15,5h | 15,5h | **02/11/2026** (seg) | **10%** (1,5/15,5h) | Python, Streamlit, Prompt Eng | 🔄 Em andamento |
+| 1: Fundamentos | 1-2 | 15,5h | 15,5h | **02/11/2026** (seg) | **✅ 100%** (15,5/15,5h) | Python, Streamlit, Prompt Eng | ✅ Concluída |
 | 2: RAG | 2-3 | 23h | 38,5h | **14/11/2026** (sáb) | **0%** (0/23h) | Embeddings, Vector DB, Indexação | ⏳ Não iniciado |
 | 3: Agentes | 3-6 | 37,5h | 76h | **03/12/2026** (qui) | **0%** (0/37,5h) | LLM Params, LangChain, Guardrails, MCP | ⏳ Não iniciado |
 | 4: Capstone | 6-7 | 19h | 95h | **13/12/2026** (dom) | **0%** (0/19h) | Projeto integrado (Agente PDF) | ⏳ Não iniciado |
 
-**Progresso geral: 1,6%** (1,5h de 95h concluídas)
+**Progresso geral: 16,3%** (15,5h de 95h concluídas)
 
 **Tempo total estimado:** 95 horas (14h/semana por 7 semanas) · **banda realista: 7-9 semanas**
 
@@ -72,21 +72,21 @@ O prazo é dominado pelas **53h das Fases 1 e 3** — aprendizado e prática de 
 |------|--------|---------|-----------|-----------|
 | Setup ambiente Python | ✅ | [Streamlit Docs](https://docs.streamlit.io) | Venv + requirements.txt + README.md | 0,5h |
 | Bloco 1 — Base Python | ✅ | Documentação + prática | Exercícios com variáveis, tipos, condicionais, loops, funções e imports | 1,5h |
-| Bloco 2 — Python específico | ⏳ | Documentação + prática | Exercícios com list comprehensions, lambda, arquivos, try/except e f-strings | 2h |
-| Bloco 3 — Python avançado | ⏳ | Documentação + prática | Exercícios com classes, decorators, async/await e tipagem com Pydantic | 3h |
-| Introdução Streamlit | ⏳ | [Getting Started](https://docs.streamlit.io/get-started) | App com 3 widgets (input, slider, button) | 1h |
-| App interativo básico | ⏳ | [Streamlit Docs](https://docs.streamlit.io) | Calculadora com estado | 1,5h |
+| Bloco 2 — Python específico | ✅ | Documentação + prática | Exercícios com list comprehensions, lambda, arquivos, try/except e f-strings | 2h |
+| Bloco 3 — Python avançado | ✅ | Documentação + prática | Exercícios com classes, decorators, async/await e tipagem com Pydantic | 3h |
+| Introdução Streamlit | ✅ | [Getting Started](https://docs.streamlit.io/get-started) | App com 3 widgets (input, slider, button) | 1h |
+| App interativo básico | ✅ | [Streamlit Docs](https://docs.streamlit.io) | Calculadora com estado | 1,5h |
 
 **Subtotal 1.1:** 9,5h *(original: 13,5h)*
 
 **Convenção de pastas:** criadas sob demanda, quando o primeiro arquivo de cada uma nascer — não todas de antemão. O git não versiona diretório vazio, então pasta sem arquivo não existe para quem clona o repo. Nomes sem espaço e sem acento (`1.1-python-streamlit`, não `"1.1 Python + Streamlit"`), para não exigir aspas em comando de shell e de git.
 
 **Marcos de conclusão:**
-- ⏳ `streamlit run app.py` funciona sem erros
-- ⏳ App com `st.text_input()` + `st.button()` + `st.write()` respondendo
-- ⏳ Código commitado em repositório
-- ⏳ Consegue escrever funções, manipular listas e tratar exceções em Python
-- ⏳ Consegue criar uma classe simples e usar async/await
+- ✅ `streamlit run app.py` funciona sem erros
+- ✅ App com `st.text_input()` + `st.button()` + `st.write()` respondendo
+- ✅ Código commitado em repositório (`c9c0896`, 22/11/2026)
+- ✅ Consegue escrever funções, manipular listas e tratar exceções em Python *(Blocos 1 e 2)*
+- ✅ Consegue criar uma classe simples e usar async/await *(Bloco 3)*
 
 **Notas:**
 ```
@@ -101,20 +101,20 @@ O prazo é dominado pelas **53h das Fases 1 e 3** — aprendizado e prática de 
 
 | Item | Status | Recurso | Entregável | Tempo Est. |
 |------|--------|---------|-----------|-----------|
-| Princípios de prompting | ⏳ | [Claude Prompt Engineering Guide](https://platform.claude.com/docs/build-with-claude/prompt-engineering/claude-prompting-best-practices) | Checklist: clareza, contexto, estrutura | 1,5h |
-| Few-shot examples | ⏳ | Documentação + prática | Teste de classificação de sentimento com exemplos | 1,5h |
-| Prompt caching | ⏳ | Documentação Anthropic | Entendimento de cache_control (ephemeral), custo e latência | 0,5h |
-| Chain-of-thought | ⏳ | Documentação + experimentação | Comparação com vs sem CoT, trade-off de tokens de output | 1,5h |
-| Coleta de prompts efetivos | ⏳ | Seu acervo | `prompts_collection.md` com exemplos categorizados (estruturação, few-shot, CoT, caching) | 1h |
+| Princípios de prompting | ✅ | [Claude Prompt Engineering Guide](https://platform.claude.com/docs/build-with-claude/prompt-engineering/claude-prompting-best-practices) | Checklist: clareza, contexto, estrutura | 1,5h |
+| Few-shot examples | ✅ | Documentação + prática | Teste de classificação com exemplos (commits: tipo + severidade) | 1,5h |
+| Prompt caching | ✅ | Documentação Anthropic | Entendimento de cache_control (ephemeral), custo e latência | 0,5h |
+| Chain-of-thought | ✅ | Documentação + experimentação | Comparação com vs sem CoT, trade-off de tokens de output | 1,5h |
+| Coleta de prompts efetivos | ✅ | Seu acervo | `prompts_collection.md` com exemplos categorizados (estruturação, few-shot, CoT, caching) | 1h |
 
 **Subtotal 1.2:** 6h *(original: 9h)*
 
 **Marcos de conclusão:**
-- ⏳ Entender princípios de especificidade, persona/contexto, formato de saída e divisão em passos
-- ⏳ Conseguir melhorar resultado de um prompt adicionando contexto/exemplos (few-shot)
-- ⏳ Entender prompt caching e seu impacto em custo/latência
-- ⏳ Entender quando usar CoT vs direct prompting (e como controlar o tamanho do raciocínio)
-- ⏳ Arquivo `prompts_collection.md` com exemplos funcionais
+- ✅ Entender princípios de especificidade, persona/contexto, formato de saída e divisão em passos
+- ✅ Conseguir melhorar resultado de um prompt adicionando contexto/exemplos (few-shot)
+- ✅ Entender prompt caching e seu impacto em custo/latência
+- ✅ Entender quando usar CoT vs direct prompting (e como controlar o tamanho do raciocínio)
+- ✅ Arquivo `prompts_collection.md` com exemplos funcionais
 
 **Notas:**
 ```
@@ -125,15 +125,15 @@ O prazo é dominado pelas **53h das Fases 1 e 3** — aprendizado e prática de 
 
 ### Checklist Fase 1
 
-- [ ] Streamlit app rodando localmente
-- [ ] Bloco 1 Python concluído
-- [ ] Bloco 2 Python concluído
-- [ ] Bloco 3 Python concluído
-- [ ] Coleção de prompts efetivos
-- [ ] Código commitado com README
+- [x] Streamlit app rodando localmente
+- [x] Bloco 1 Python concluído
+- [x] Bloco 2 Python concluído
+- [x] Bloco 3 Python concluído
+- [x] Coleção de prompts efetivos
+- [x] Código commitado com README (`c9c0896`)
 - [ ] **Verificação:** Consegue explicar 3 conceitos sem notas? ✅
 
-**Conclusão da Fase 1:** Data estimada: 02/11/2026 | Data real: _________
+**Conclusão da Fase 1:** Data estimada: 02/11/2026 | **Data real: 22/11/2026** (20 dias de atraso)
 
 ---
 
@@ -649,8 +649,8 @@ Prepare 3 PDFs reais para testar:
 
 ```
 ┌─ Semana 1-2: Fundamentos ───── 15,5h ─┐
-│  🔄 Python              9,5h
-│  ⏳ Prompting           6,0h
+│  ✅ Python              9,5h  (1.1 concluída)
+│  ✅ Prompting           6,0h  (1.2 concluída)
 │
 ├─ Semana 2-3: RAG ────────────  23,0h ─┐
 │  ⏳ Embeddings          4,5h
@@ -680,14 +680,16 @@ Prepare 3 PDFs reais para testar:
 | Semana | Período | Fase | Planej. | Entregue | Reais | Saldo | Notas |
 |--------|---------|------|---------|----------|-------|-------|-------|
 | 1 | 26/10 – 01/11 | Fund. (1.1 + 1.2) | 14h | 0,8h | *a informar* | *a calcular* | Setup concluído; Bloco 1 em andamento (variáveis e tipos ✅, 1 de 5 exercícios) |
-| 2 | 02/11 – 08/11 | Fund. (1.1 + 1.2) | 14h | 0,7h | - | - | Semana 1 entregou 0,8h de 14h. **Decisão de 02/11: datas mantidas**, reavaliar no fim desta semana. Bloco 1 ✅ concluído |
-| 3 | 09/11 – 15/11 | RAG (2.3-2.5) → Agent | 14h | - | - | - | |
-| 4 | 16/11 – 22/11 | Agent (3.1-3.3) | 14h | - | - | - | |
-| 5 | 23/11 – 29/11 | Agent (3.3-3.5) | 14h | - | - | - | |
-| 6 | 30/11 – 06/12 | Agent (3.6) → Capstone | 14h | - | - | - | |
-| 7 | 07/12 – 13/12 | Capstone (Sprints 3-5) | 11h | - | - | - | |
+| 2 | 02/11 – 08/11 | Fund. (1.1) | 14h | 1,2h | - | - | **Decisão de 02/11: datas mantidas**, reavaliar com ritmo real. Bloco 1 ✅ concluído |
+| 3 | 09/11 – 15/11 | Fund. (1.1) | 14h | 2,0h | - | - | Bloco 2 ✅ concluído. Ritmo corrigido para 1 conceito por vez |
+| 4 | 16/11 – 22/11 | Fund. (1.1 + 1.2) | 14h | 11,5h | - | - | **FASE 1 CONCLUÍDA** — 1.1 (Bloco 3, Streamlit, calculadora) e 1.2 inteira (Princípios, Few-shot, Caching, CoT, coleção). Pendência: commitar. *Foco reprojetado: o plano original previa Fase 3 aqui* |
+| 5 | 23/11 – 29/11 | Fund. (1.2) → RAG | 14h | - | - | - | *idem* |
+| 6 | 30/11 – 06/12 | RAG | 14h | - | - | - | *idem* |
+| 7 | 07/12 – 13/12 | RAG → Agentes | 11h | - | - | - | *idem* |
 
-**Total planejado:** 95h | **Total entregue:** 1,5h | **Total real:** *a informar* | **Saldo:** *a calcular*
+⚠️ **As Semanas 4-7 não cabem mais no escopo original.** Em 15/11 (fim da Semana 3) foram entregues **4h de 42h** orçadas para três semanas. Restam 91h e 4 semanas de calendário até 13/12 — ou seja, 23h/semana para cumprir a data, contra as 14h planejadas. As datas das Fases 1 e 2 (02/11 e 14/11) já venceram. A coluna *Foco* acima foi reprojetada pelo ritmo real; **as datas de entrega do Resumo Executivo seguem as originais por decisão de 02/11** e precisam de uma repactuação.
+
+**Total planejado:** 95h | **Total entregue:** 15,5h | **Total real:** *a informar* | **Saldo:** *a calcular*
 
 **O que cada coluna mede:**
 
@@ -708,7 +710,16 @@ Por que não comparar *Reais* direto com *Planej.*: no meio da semana isso sempr
 | 26/10/2026 | ~~1.1 Setup ambiente Python~~ | ~~0,5h~~ | ~~0,1h~~ | **Anulado.** Eu havia executado o setup; desfeito para o Thiago refazer, conforme a regra em *Premissas da Estimativa* |
 | 27/10/2026 | 1.1 Setup ambiente Python ✅ | 0,5h | *a informar* | Refeito pelo Thiago: venv + 2 pacotes, `requirements.txt` declarado à mão, `README.md`. Pastas passaram a ser criadas sob demanda |
 | 27/10/2026 | 1.1 Bloco 1 — variáveis e tipos 🔄 | 0,3h | *a informar* | `bloco1/variaveis.py` aprovado: escalares, `type()`, `list` com índice e `len()`, conversão com `str()`/`int()`. Aprendidos na prática: `int()` trunca (1,78 → 1) e `print` com vírgula dispensa `str()` (tipagem forte barra `"x " + 65`) |
-| 02/11/2026 | 1.1 Bloco 1 — Base Python ✅ | 0,7h | *a informar* | `bloco1/catalogo.py` aprovado (10 passos): condicionais, `for`/`enumerate`, `while`, `range`, funções com `return` e valor padrão, `import math`, operador `and`. Conceito-chave depurado: **escopo de função** — atribuir a um nome dentro de `def` torna-o local e causa `UnboundLocalError`; `if`/`for` não criam escopo. Comparação com C# (campo de classe vs `global`/`self`) acelerou o entendimento. Incômodo deixado de propósito: 3 listas paralelas coordenadas por índice → motiva `dict` |
+| 22/11/2026 | 1.2 Coleta de prompts ✅ — **FASE 1 CONCLUÍDA** | 1h | *a informar* | `prompts_collection.md`: acervo de consulta consolidando as 4 técnicas, cada entrada com prompt pronto, quando usar e a armadilha que evita. Inclui a checklist dos 4 eixos, a comparação de PR (vago vs específico), o prompt few-shot completo de commits, a regra do CoT, a estrutura de caching, e a contraposição input/output das duas últimas técnicas. Fecha a Fase 1 em 15,5h/15,5h |
+| 22/11/2026 | 1.2 Chain-of-thought ✅ | 1,5h | *a informar* | `4-chain-of-thought.md`: por que CoT funciona (tokens como rascunho), tabela de quando ajuda, comparação real feita no problema de chunking da LGPD (293 chunks), trade-off de output ($5/M in vs $25/M out) contraposto ao caching, e `thinking: adaptive` + `effort` como substituto nativo. **Resultado honesto registrado: as duas versões acertaram** — o modelo raciocinou nas duas, só não mostrou na primeira. A diferença real é auditabilidade, não precisão. Regra adotada: "CoT visível quando a resposta precisa ser defendida, não quando precisa ser precisa". Aritmética conferida por simulação em Python |
+| 21/11/2026 | 1.2 Prompt caching ✅ | 0,5h | *a informar* | `3-prompt-caching.md`: `cache_control` ephemeral, TTL 5min/1h, regra do prefixo (`tools → system → messages`), 3 invalidadores silenciosos, custo (1,25× gravar / 0,1× ler) e ponto de equilíbrio, mínimo de tokens por modelo (512 a 4096, não progressivo), pré-aquecimento com `max_tokens: 0`. Conclusão de projeto: o prompt few-shot dele (~400 tokens) está abaixo do mínimo e não cachearia — caching é da Fase 4, e lá o que se cacheia é system prompt + instruções, **não** o chunk recuperado (que muda por pergunta). Isso define a ordem de montagem do prompt no `graph.py`. Arquivo escrito por mim a pedido dele; documentação consultada via skill `claude-api` para não citar preços/limites de memória |
+| 21/11/2026 | 1.2 Few-shot examples ✅ | 1,5h | *a informar* | `2-few-shot.md` com prompt zero-shot vs few-shot para classificar commits (tipo + severidade 1-5), decisões de desenho e a regra de ouro. Descoberta: o esquema inicial dele (`feat-5, fix-4, docs-2`...) derivava severidade do tipo, tornando-a redundante — exemplos que embutem mapeamento fixo ensinam a regra errada em silêncio. Corrigido para severidade = impacto, com dois exemplos que contrariam o óbvio (`docs-4`, `feat-2`). Arquivo escrito por mim a pedido dele, para ganhar tempo |
+| 21/11/2026 | 1.2 Princípios de prompting ✅ | 1,5h | *a informar* | `1.2-prompt-engineering/1-principios_prompt.md`: checklist dos 4 eixos (tarefa, formato, público, restrições), os dois prompts de PR lado a lado e a conclusão. Exercício interativo — ele mandou o prompt vago, eu respondi, ele especificou, comparamos. Descoberta central: **definir o público mudou o conteúdo, não só o formato** (saiu descrição arquivo-por-arquivo, entrou impacto/risco/prazo). Dos 7 pontos que eu decidi por ele na v1, 5 mudaram na v2 |
+| 21/11/2026 | 1.1 App interativo básico ✅ | 1,5h | *a informar* | `calculadora.py` com `st.session_state`, `st.number_input` e botões Somar/Zerar. Conceito central: variável comum morre a cada rerun; o `session_state` é um `dict` que **persiste** por sessão. Par indispensável: inicialização com `if "total" not in st.session_state` (sem ela, `KeyError`) + mutação `st.session_state["total"] = st.session_state["total"] + valor`. Erros: botões criados sem `if` que reagisse a eles; `st.write` imprimindo o booleano do botão em vez do total. Código final escrito por mim a pedido dele — ele confirmou o entendimento identificando as duas linhas que alteram o estado |
+| 21/11/2026 | 1.1 Introdução Streamlit ✅ | 1h | *a informar* | `app.py` com `st.title`, `st.write`, `st.text_input`, `st.slider(1,200,50)` e `st.button` + `if clicou:`. Servidor validado na porta 8501. Modelo mental ensinado: **o script reexecuta inteiro a cada interação** — não há event handler, o widget devolve o valor atual. Erros: `source venv/bin/activate` digitado errado e rodado de outra pasta; slider com 2 argumentos em vez de 3; rótulo do input incoerente com o uso |
+| 21/11/2026 | 1.1 Bloco 3 — Python avançado ✅ | 3h | *a informar* | Quatro arquivos em `bloco3/`: `classes.py`, `decorator.py`, `async_exemplo.py`, `pydantic_exemplo.py`. Conceitos: `class` com `__init__`/`self`/métodos, função como objeto → decorator com `@`, `async def`/`await`/`asyncio.gather`, `BaseModel` com validação e coerção de tipo. Erros depurados: `seft` em vez de `self`; método e chamada com indentação errada (viraram função solta e recursão); `...` literal passado ao `gather`; `__init__` manual em modelo Pydantic (sugestão errada do autocomplete); `ValidationError` sem `try` matando o script. Comprovado na prática: `gather` com 1+2+3s roda em 3s e a ordem de chegada segue o tempo, não o código |
+| 15/11/2026 | 1.1 Bloco 2 — Python específico ✅ | 2h | *a informar* | Cinco arquivos em `bloco2/`: `fstring.py`, `comprehension.py`, `lambda_exemplo.py`, `arquivo.py`, `excecoes.py`. Conceitos: f-string, list comprehension (com e sem filtro), operador `in`, lambda em variável e como `key=` de `sorted`, `with open` nos modos `"w"`/`"r"`, `try`/`except ValueError as e`. Erros depurados: `.read()` em arquivo aberto como `"w"` (`UnsupportedOperation`), `/` sempre devolve float, caminho relativo depende do diretório atual (`cd`). Ajuste de estilo: camelCase → snake_case (PEP 8). **Ritmo corrigido para 1 conceito por vez** — ver Premissas |
+| 02/11/2026 | 1.1 Bloco 1 — Base Python ✅ | 1,2h | *a informar* | `bloco1/catalogo.py` aprovado (10 passos): condicionais, `for`/`enumerate`, `while`, `range`, funções com `return` e valor padrão, `import math`, operador `and`. Conceito-chave depurado: **escopo de função** — atribuir a um nome dentro de `def` torna-o local e causa `UnboundLocalError`; `if`/`for` não criam escopo. Comparação com C# (campo de classe vs `global`/`self`) acelerou o entendimento. Incômodo deixado de propósito: 3 listas paralelas coordenadas por índice → motiva `dict` |
 
 ⚠️ **O "Real" acima cobre só o tempo de execução que eu medi.** Não tenho como medir seu tempo de leitura, decisão e estudo — ao fim de cada sessão eu pergunto quanto tempo você gastou e registro aqui. Se o número de hoje estiver subestimado, me diga o valor correto que eu ajusto a linha e o saldo.
 
